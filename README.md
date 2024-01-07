@@ -24,18 +24,6 @@ Run the tests:
 cargo test
 ```
 
-Run with [Miri](https://github.com/rust-lang/miri):
-
-```bash
-cargo miri test
-cargo miri run --example standalone
-cargo miri run --example buckets
-cargo miri run --example aligned
-```
-
-Global allocator example doesn't work with Miri, see
-[`examples/global.rs`](./examples/global.rs).
-
 ## Implementation
 
 I started this project for learning purposes, and I know the best way to make
